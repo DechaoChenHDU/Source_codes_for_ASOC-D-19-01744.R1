@@ -1,0 +1,4 @@
+gamma=10000000;
+qDot=-gamma*J'*(f_xl-r_xl);
+
+options=odeset('RelTol',1e-6,'AbsTol',1e-7*ones(n+3,1));
